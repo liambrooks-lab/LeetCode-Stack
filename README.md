@@ -60,8 +60,25 @@ node filename.js
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/liambrooks-lab/LeetCode/tree/master/0002-add-two-numbers) |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/liambrooks-lab/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Recursion
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/liambrooks-lab/LeetCode/tree/master/0002-add-two-numbers) |
+## String
+|  |
+| ------- |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/liambrooks-lab/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
+## Backtracking
+|  |
+| ------- |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/liambrooks-lab/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
+## Greedy
+|  |
+| ------- |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/liambrooks-lab/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
+## Number Theory
+|  |
+| ------- |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/liambrooks-lab/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
 <!---LeetCode Topics End-->
