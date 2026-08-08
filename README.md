@@ -1,4 +1,4 @@
-# LeetCode Archive
+# My LeetCode Stack
 
 This repository serves as a personal archive for algorithmic problem-solving and data structure implementations. It tracks continuous progression and solutions submitted on the LeetCode platform.
 
@@ -46,47 +46,5 @@ python3 filename.py
 ```bash
 node filename.js
 ```
-
 ---
-*Maintained by Rudranarayan Jena | Voxion-Labs*
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Linked List
-|  |
-| ------- |
-| [0002-add-two-numbers](https://github.com/liambrooks-lab/LeetCode/tree/master/0002-add-two-numbers) |
-## Math
-|  |
-| ------- |
-| [0002-add-two-numbers](https://github.com/liambrooks-lab/LeetCode/tree/master/0002-add-two-numbers) |
-| [3348-smallest-divisible-digit-product-ii](https://github.com/liambrooks-lab/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
-## Recursion
-|  |
-| ------- |
-| [0002-add-two-numbers](https://github.com/liambrooks-lab/LeetCode/tree/master/0002-add-two-numbers) |
-## String
-|  |
-| ------- |
-| [3348-smallest-divisible-digit-product-ii](https://github.com/liambrooks-lab/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
-## Backtracking
-|  |
-| ------- |
-| [3348-smallest-divisible-digit-product-ii](https://github.com/liambrooks-lab/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
-## Greedy
-|  |
-| ------- |
-| [3348-smallest-divisible-digit-product-ii](https://github.com/liambrooks-lab/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
-## Number Theory
-|  |
-| ------- |
-| [3348-smallest-divisible-digit-product-ii](https://github.com/liambrooks-lab/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
-## Array
-|  |
-| ------- |
-| [0001-two-sum](https://github.com/liambrooks-lab/LeetCode/tree/master/0001-two-sum) |
-## Hash Table
-|  |
-| ------- |
-| [0001-two-sum](https://github.com/liambrooks-lab/LeetCode/tree/master/0001-two-sum) |
-<!---LeetCode Topics End-->
+                                                     Rudranarayan Jena
