@@ -1,3 +1,10 @@
+/*
+ * Problem: Add Two Numbers
+ * Approach: Math with Carry (Linked List Traversal)
+ * Time Complexity: O(max(N, M)) - Where N and M are the lengths of the lists.
+ * Space Complexity: O(max(N, M)) - For constructing the new resulting list.
+ */
+
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {

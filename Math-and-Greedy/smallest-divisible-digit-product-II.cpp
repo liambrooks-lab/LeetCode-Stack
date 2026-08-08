@@ -1,3 +1,10 @@
+/*
+ * Problem: Smallest Divisible Digit Product II
+ * Approach: Constructive Math / Greedy String Manipulation
+ * Time Complexity: O(N) - Where N is the length of the string.
+ * Space Complexity: O(N) - To store and manipulate the resulting numerical string.
+ */
+
 class Solution {
 public:
     string smallestNumber(string num, long long t) {
