@@ -1,0 +1,11 @@
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        i=0
+        hist=set()
+        for n in nums:
+            if n in hist:
+                continue
+            nums[i]=n
+            hist.add(n)
+            i+=1
+        return i
