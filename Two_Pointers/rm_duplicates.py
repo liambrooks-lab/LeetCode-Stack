@@ -9,3 +9,4 @@ class Solution:
             hist.add(n)
             i+=1
         return i
+    
