@@ -1,22 +1,29 @@
-# My LeetCode Stack
+# leetcode-stack
+---
+> **A zero-to-one algorithmic infrastructure, independently architected for state-space optimization, advanced data structure engineering, and computational efficiency..**
 
-This repository serves as a personal archive for algorithmic problem-solving and data structure implementations. It tracks continuous progression and solutions submitted on the LeetCode platform.
+Engineered entirely from the ground up, this repository serves as a systematic archive of rigorous problem-solving. Every algorithmic module is strictly authored to enforce minimal auxiliary space and optimal asymptotic time complexities, reflecting continuous deployment from the LeetCode platform.
 
-##  Language Stack
+---
 
-Solutions are primarily implemented in:
-* **C++** (Focus on memory management, pointers, and high-performance execution)
-* **Python 3** (Focus on rapid prototyping and built-in advanced data structures)
-* **JavaScript / Node.js** (Focus on asynchronous patterns and web-standard logic)
+## The Execution Stack
 
-## 📁 Repository Structure
+Solutions are architected via a tri-lingual stack, strategically chosen for specific computational paradigms:
 
-The repository is maintained autonomously. Solutions are structured individually by problem and typically contain:
-* The source code solution
-* Problem description and constraints
-* Execution metrics (Time & Space complexity synced from the platform)
+* **`C++`** &mdash; Granular memory management, pointer arithmetic, and low-latency execution.
+* **`Python 3`** &mdash; Rapid logic orchestration, advanced built-in data structures, and mathematical modeling.
+* **`JavaScript / Node.js`** &mdash; Asynchronous execution patterns and web-standard logic deployment.
 
-## Snippets
+---
+
+## System Architecture
+
+The repository is maintained autonomously and structured strictly by algorithmic taxonomy. Each isolated module typically contains:
+* The raw source code implementation.
+* Problem constraints and edge-case definitions.
+* Execution metrics (Time & Space complexity, synchronized in real-time).
+
+### Snippets
 
 **Arrays & Hashing &mdash; Two Sum:**
 ```python
@@ -24,7 +31,7 @@ from arrays.two_sum import two_sum
 
 nums = [2, 7, 11, 15]
 print(two_sum(nums, 9))
-# [0, 1]
+# Output: [0, 1]
 ```
 
 **Backtracking &mdash; Generate Parentheses:**
@@ -33,7 +40,7 @@ const { generateParenthesis } = require('./backtracking/gen_parentheses');
 
 const n = 3;
 console.log(generateParenthesis(n));
-// [ '((()))', '(()())', '(())()', '()(())', '()()()' ]
+// Output: [ '((()))', '(()())', '(())()', '()(())', '()()()' ]
 ```
 
 **Binary Search &mdash; Median of Two Sorted Arrays:**
@@ -43,7 +50,7 @@ console.log(generateParenthesis(n));
 std::vector<int> nums1 = {1, 3};
 std::vector<int> nums2 = {2};
 std::cout << findMedianSortedArrays(nums1, nums2) << std::endl;
-// 2.0
+// Output: 2.0
 ```
 
 **Dynamic Programming &mdash; Regular Expression Matching:**
@@ -53,7 +60,7 @@ from dynamic_programming.regex_matching import is_match
 string_val = "aab"
 pattern = "c*a*b"
 print(is_match(string_val, pattern))
-# True
+# Output: True
 ```
 
 **Linked Lists &mdash; Reverse Nodes in k-Group:**
@@ -62,7 +69,7 @@ const { reverseKGroup, createList } = require('./linked_lists/reverse_k_group');
 
 const head = createList([1, 2, 3, 4, 5]);
 console.log(reverseKGroup(head, 2));
-// [2, 1, 4, 3, 5]
+// Output: [2, 1, 4, 3, 5]
 ```
 
 **Math & Greedy &mdash; Roman to Integer:**
@@ -71,7 +78,7 @@ console.log(reverseKGroup(head, 2));
 
 std::string numeral = "MCMXCIV";
 std::cout << romanToInt(numeral) << std::endl;
-// 1994
+// Output: 1994
 ```
 
 **Segment Tree &mdash; Longest Repeating Substring:**
@@ -80,7 +87,7 @@ const { longestRepeatingSubstring } = require('./segment_tree/longest_repeat_sub
 
 const s = "abbaba";
 console.log(longestRepeatingSubstring(s));
-// 2
+// Output: 2
 ```
 
 **Sliding Window &mdash; Longest Substring Without Repeating Characters:**
@@ -89,7 +96,7 @@ from sliding_window.longest_substring import length_of_longest_substring
 
 text = "abcabcbb"
 print(length_of_longest_substring(text))
-# 3
+# Output: 3
 ```
 
 **Stacks &mdash; Valid Parentheses:**
@@ -98,7 +105,7 @@ const { isValid } = require('./stacks/valid_parentheses');
 
 const brackets = "()[]{}";
 console.log(isValid(brackets));
-// true
+// Output: true
 ```
 
 **Strings &mdash; String to Integer (atoi):**
@@ -107,7 +114,7 @@ console.log(isValid(brackets));
 
 std::string input = "   -42";
 std::cout << myAtoi(input) << std::endl;
-// -42
+// Output: -42
 ```
 
 **Two Pointers &mdash; Container With Most Water:**
@@ -116,23 +123,27 @@ from two_pointers.container_with_most_water import max_area
 
 heights = [1, 8, 6, 2, 5, 4, 8, 3, 7]
 print(max_area(heights))
-# 49
+# Output: 49
 ```
 
-##  Engineering Standards
+---
 
-All implementations are written with a strict focus on system-level efficiency:
-* **Time Complexity:** Optimized for minimal asymptotic bounds.
-* **Space Complexity:** Emphasis on in-place modifications and optimal auxiliary space usage.
-* **Topics Covered:** Arrays, Linked Lists, Two Pointers, Trees, Graphs, Dynamic Programming, and Advanced Algorithms.
+## Engineering Standards
 
-##  Automation Pipeline
+All modules are engineered with a strict focus on system-level constraints:
+* **Time Complexity:** Optimized for minimal asymptotic upper bounds.
+* **Space Complexity:** Emphasis on strictly in-place modifications and zero-overhead auxiliary space allocation.
+* **Taxonomy:** Arrays, Linked Lists, Two Pointers, Trees, Graphs, Dynamic Programming, and Advanced Heuristics.
+---
 
-This repository is maintained autonomously. Solutions are integrated and pushed in real-time upon successful submission on the platform using automated synchronization workflows. No manual indexing is required.
+## Automation Pipeline
+This infrastructure relies on zero manual indexing. Solutions are integrated, compiled, and pushed in real-time upon successful boundary validation on the master platform via automated CI/CD synchronization workflows. 
 
-## ⚙️ Local Execution
+---
 
-To test or benchmark solutions locally, use the following standard commands based on the file type:
+## Local Execution
+
+To benchmark implementations locally, deploy the following standard execution protocols:
 
 **C++**
 ```bash
@@ -150,5 +161,8 @@ python3 filename.py
 node filename.js
 ```
 ---
-                                    Rudranarayan Jena
-                                  Founder @ Voxion Labs
+<br>
+<div align="right">
+  <b>Rudranarayan Jena</b><br>
+  <i>Founder @ Voxion Labs</i>
+</div>
