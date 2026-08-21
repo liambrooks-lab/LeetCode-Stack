@@ -16,7 +16,7 @@ Solutions are architected via a tri-lingual stack, strategically chosen for spec
 
 ---
 
-## System Architecture
+## Architecture & Taxonomy
 
 The repository is maintained autonomously and structured strictly by algorithmic taxonomy. Each isolated module typically contains:
 * The raw source code implementation.
@@ -32,6 +32,38 @@ from arrays.two_sum import two_sum
 nums = [2, 7, 11, 15]
 print(two_sum(nums, 9))
 # Output: [0, 1]
+```
+
+**Prefix Sum &mdash; State-Space Accumulation:**
+```python
+# Abstract pattern representation for O(1) range queries
+nums = [1, 2, 3, 4]
+prefix = [0] * (len(nums) + 1)
+
+for i in range(len(nums)):
+    prefix[i + 1] = prefix[i] + nums[i]
+
+print(prefix[1:]) 
+# Output: [1, 3, 6, 10]
+```
+
+**Bit Manipulation — Bitwise Operations Engine:**
+```javascript
+// Executed strictly via bitwise state shifts to bypass heavy arithmetic
+const n = 16; // 10000 in binary
+const isPowerOfTwo = (n > 0) && ((n & (n - 1)) === 0);
+
+console.log(isPowerOfTwo);
+// Output: true
+```
+
+**Cyclic Sort &mdash; First Missing Positive (O(1) Auxiliary Space):**
+```javascript
+const { firstMissingPositive } = require('./Cyclic_Sort/first_missing_positive');
+
+const nums = [3, 4, -1, 1];
+console.log(firstMissingPositive(nums));
+// Output: 2
 ```
 
 **Backtracking &mdash; Generate Parentheses:**
